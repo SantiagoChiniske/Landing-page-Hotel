@@ -6,51 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Serra do Mar</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2?family= Roboto:ital,wght@1,300 & display família= Roboto:ital,wght@0,300;1,300 & swap" rel="stylesheet">
     <script src="./index.js"></script>
 </head>
 <body>
-        <header>
-            <img src="./img/logo.png" alt="logo">
 
-            <nav>
-                <ul>
-                    <li><a href="">Sobre nós</a></li>
-                    <li><a href="">Quartos</a></li>
-                    <li><a href="#comodidades">Comodidades</a></li>
-                    <li><a href="">Localização</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
+    <div id="container">
+
+    
+        <header>
+            <div>
+                <img src="./img/logo.png" alt="logo">
+            </div>
+           
+                <nav>
+                    <ul>
+                        <li><a href="">Sobre nós </a></li>
+                        <li><a href=""> Quartos</a></li>
+                        <li><a href="#comodidades">Comodidades</a></li>
+                        <li><a href="">Localização</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+
         </header>
 
         <div id="principal-imagem">
-            <h1>Hotel Serra do Mar</h1>
+            <h1>Hotel Serra <br> do Mar</h1>
             <button>Saiba Mais</button>
         </div>
 
         <div id="sobre-nos">
-            <h4>Sobre nós</h4>
-
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            <div id="sobre-nos-quadrado">
+                <h4>Sobre nós</h4>
+                <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+                    a type specimen book. It has survived not only five centuries. Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id praesentium quasi aperiam excepturi natus incidunt non minima ipsum sit fuga corrupti quia, rem nemo ab debitis
+                     quo voluptatum fugiat inventore.
+                </p>    
+            </div>
         </div>
 
-        <div>
-            <h1>Conheça alguns dos nossos quartos</h1>
+        <div id="quartos">
+            <h1>Conheça alguns dos <br> nossos quartos</h1>
 
-            <div id="container">
-                <div><img src="./img/quarto1.png" alt=""></div>
-                <div><img src="./img/quarto2.png" alt=""></div>
-                <div><img src="./img/quarto3.png" alt=""></div>
+            <div class="container-quartos">
+                <img src="./img/quarto1.png" alt="">
+                <img src="./img/quarto2.png" alt="">
+                <img src="./img/quarto3.png" alt="">
+            </div>
+            <div class="container-quartos">
                 <div><img src="./img/quarto4.png" alt=""></div>
                 <div><img src="./img/quarto5.png" alt=""></div>
                 <div><img src="./img/quarto6.png" alt=""></div>
             </div>
         </div>
 
-        <div>
-            <div>
+        <div id="comodidades">
+            <div id="container-comodidades">
                 <h1 >Principais Comodidades</h1>
 
+                <div id="conteudo-esquerdo">
+                         <p><img src="./img/icon-banheiro.png" alt="" class="icon"> banheiro</p>
+                         <p><img src="./img/icon-certo.png" alt=""class="icon">Toalhas</p>
+                         <p ><img src="./img/icon-certo.png" alt=""class="icon"> Banheiro privativo</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Chuveiro</p>
+
+                         <p><img src="./img/icon-quarto.png" alt="" id="icon-comodidades" class="icon"> Quarto</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Roupa de cama</p>
+
+                         <p><img src="./img/icon-midia.png" alt=""class="icon" id="icon-comodidades">Mídia / Tecnologia</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Serviço de streaming (como Netflix)</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> TV de tela plana</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Tv</p>
+
+                         <p><img src="./img/icon-internet.png" alt="" id="icon-comodidades" class="icon"> Internet</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Acesso Wi-Fi disponível nas áreas públicas, gratuitamente.</p>
+
+                </div>
+                <div id="conteudo-direita">
+                    <p><img src="./img/icon-servicos.png" alt="" class="icon"> Serviços</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon">Lounge compartilhado / Sala de TV</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon">Check-in / Check-out privativos</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Depósito de bagagens</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Serviço de despertar</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon">Serviço de despertar/despertador</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon">Recepção 24 horas</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Serviço de quarto</p>
+
+                         <p><img src="./img/icon-geral.png" alt=" "  class="icon"id="icon-comodidades"> Geral</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon"> Ar-condicionado</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon">Proibido fumar em todas as áreas</p>
+                         <p><img src="./img/icon-certo.png" alt="" class="icon">Quartos para não fumantes</p>
+                </div>
             </div>
         </div>
 
@@ -79,6 +131,8 @@
         <footer>
             copyright © Hotel Serra do Mar 2022
         </footer>
+
+    </div>
         
 </body>
 </html>
