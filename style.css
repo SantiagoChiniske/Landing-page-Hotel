@@ -200,14 +200,27 @@ nav ul li a{
 #localizacao{
     text-align: center;
     margin-top: 20px;
+    background-color: #A3B58F;
 
 }
 
-#mapa{
-    margin-top: 20px;    
+.float-container {
+    border: 1px solid black;    
+    background-color: #A3B58F;
 }
 
-#descricao-hotel{
-    margin-top: 20px;
+.float-child {
+    height: 20rem;
+    width: 50%;
+    float: left;
+    background-color: #A3B58F;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    justify-content: center;
+    margin: auto;
     margin-bottom: 20px;
-}
+    
+}  
+
+
+
