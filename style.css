@@ -197,3 +197,17 @@ nav ul li a{
     background-color: #026359 ;
 }
 
+#localizacao{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#mapa{
+    margin-top: 20px;    
+}
+
+#descricao-hotel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
